@@ -1,0 +1,116 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: Atomic Analogs Swap Homepage
+theme: "PaperMod"
+paginate: 5
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        menu:
+            main:
+                - name: Tags
+                  url: tags/
+                  weight: 10
+                - name: Discord
+                  url: https://discord.gg/fWTVdvgep2
+                  weight: 20
+                - name: GitHub
+                  url: https://github.com/dzyphr/atomicAPI
+                  weight: 30
+  
+params:
+  title: AtomicAnalogsSwap
+  description: "In development... Atomic Swap Client and Server Hosting Framework and Implementation"
+  keywords: [Home]
+  author: Me
+  DateFormat: "Updated: January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: true
+  images: ["atom1.jpg"]
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "https://images.wisegeek.com/atom-with-electrons-circling.jpg"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: ""
+    safari_pinned_tab: "<link / abs url>"
+  label:
+    text: "Atomic Analog Swap"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+  homeInfoParams:
+    Title: "Cross Chain Atomic Swaps ⚛️  "
+    Content:  "Welcome to Atomic Analog Swap \n\n Currently Listed: Testnet Ergo, Sepolia Ether"
+  socialIcons:
+    #    - name: twitter
+    #  url: "https://twitter.com/"
+    #- name: stackoverflow
+    #  url: "https://stackoverflow.com"
+    - name: discord
+      url: https://discord.gg/fWTVdvgep2
+    - name: github
+      url: https://github.com/dzyphr/atomicAPI
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+  pygmentsUseClasses: true
+  markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+      noClasses: false
+
+  privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+  services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
+
