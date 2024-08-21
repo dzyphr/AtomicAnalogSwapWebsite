@@ -77,6 +77,20 @@ def setSwapState(swapName, state, setMap) -> bool :
 (setMap may be mandatory in future)
 
 ---
+### Function: `getSwapState`
+
+Returns the value of the specified swapID's 'SwapState' file
+
+#### getSwapState Signature
+
+```python
+def getSwapState(swapName) -> str :
+```
+### Parameters
+
+- `swapName` (string)
+
+---
 ### Function: `watchSwapLoop`
 
 Takes a SwapID / SwapName and executes any remaining tasks according to swapstate. 
